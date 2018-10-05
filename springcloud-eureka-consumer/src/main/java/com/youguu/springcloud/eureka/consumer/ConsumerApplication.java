@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication(scanBasePackages={"com.youguu.springcloud.eureka.controller"})
-//@SpringBootApplication
 @EnableDiscoveryClient
 public class ConsumerApplication {
 
